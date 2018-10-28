@@ -56,6 +56,7 @@ h1 {
   color: white;
   border-radius: 5px;
   border: 2px #eaeaea solid;
+	text-align: center;
 }
 
 
@@ -63,4 +64,13 @@ h1 {
   background-color: #EF5F3C;
   border-radius: 5px;
   border: 2px #eaeaea solid;
+}
+
+.c{
+	color: #777;
+	margin: 1em;
+}
+
+.d{
+	background-color: #eaeaea;
 }
