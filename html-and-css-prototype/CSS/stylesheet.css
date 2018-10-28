@@ -40,3 +40,25 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.grid {
+  border: 2px #eaeaea solid; /*need shadow bottom*/
+  height: 300px;
+  width: 300px;
+	display : grid;
+  grid-template-rows: 75px 25px 125px 75px;
+  grid-gap: 10px 0px 10px;
+}
+
+.a{
+  background-color: #424242;
+  color: white;
+  border-radius: 5px;
+  border: 2px #eaeaea solid;
+}
+
+
+.b{
+  background-color: #EF5F3C;
+  border-radius: 5px;
+  border: 2px #eaeaea solid;
+}
