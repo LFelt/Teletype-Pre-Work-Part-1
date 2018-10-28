@@ -45,19 +45,17 @@ h1 {
   height: 300px;
   width: 260px;
 	display : grid;
-  grid-template-rows: 1fr .5fr 150px 1fr; /*fractions? 6/15*/
+  grid-template-rows: 1fr .5fr 150px 1fr;
   grid-row-gap:  10px;
 	margin: 4em auto;
 
 }
 
-.a{
+.a{ /*needs drop down arrow*/
   background-color: #424242;
   color: white;
-  border-radius: 5px;
-  border: 2px #eaeaea solid;
+  border-radius: 3px;
 	text-align: center;
-	border: 2px #eaeaea solid;
 	padding-top: 1em;
 }
 
@@ -71,6 +69,7 @@ h1 {
 .c{
 	color: #777;
 	border: 2px #eaeaea solid; /*need shadow bottom*/
+	padding: 1em;
 }
 
 .d{
