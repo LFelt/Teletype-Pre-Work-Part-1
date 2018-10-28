@@ -46,7 +46,6 @@ h1 {
   width: 260px;
 	display : grid;
   grid-template-rows: 1fr .5fr 190px 1fr;
-  grid-row-gap:  10px;
 	margin: 4em auto;
 
 }
@@ -56,7 +55,7 @@ h1 {
   color: white;
   border-radius: 3px;
 	text-align: center;
-	padding-top: .5em;
+	padding-top: 1em;
 }
 
 
@@ -72,6 +71,9 @@ h1 {
 	padding: 1em;
 }
 
+.d {
+	margin-top: 1em;
+}
 .button{
     border: 2px #eaeaea solid;
     color: #424242;
@@ -83,6 +85,9 @@ h1 {
 
 }
 
+.button1 {
+	text-align: left;
+}
 .button2{
 	background-color: #1CBC2C;
 	color: white;
