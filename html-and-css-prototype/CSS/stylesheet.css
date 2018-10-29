@@ -59,7 +59,7 @@ h1 {
 }
 
 
-.b{
+.b{ /* how to only partially fill?*/
   background-color: #EF5F3C;
   border-radius: 5px;
   border: 2px #eaeaea solid;
@@ -68,7 +68,7 @@ h1 {
 
 .c{
 	color: #777;
-	border: 2px #eaeaea solid; /*need shadow bottom*/
+	border: 2px #eaeaea solid;
 	padding: 1em;
 	box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
 }
@@ -101,13 +101,17 @@ h1 {
 }
 
 .button3 {
-	margin-right: 5px;
+	margin-right: 7px;
 	background-color: #f2f2f2;
+	color: #777;
+	font-weight: bold;
 }
 
 .button4 {
-	margin-left: 5px;
+	margin-left: 7px;
 	background-color: #f2f2f2;
+	color: #777;
+	font-weight: bold;
 }
 .flex-container{
 	display: flex;
@@ -143,9 +147,14 @@ h1 {
 
 .blue {
 	color: #20A1D4;
+	font-style: italic;
 }
 
 .orange {
 	color: #EF5F3C;
 	font-weight: bold;
+}
+
+.grid {
+	display: none;
 }
