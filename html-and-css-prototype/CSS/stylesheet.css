@@ -10,6 +10,7 @@ body {
 	color: #424242;
 	line-height: 1.4;
 	font-size: 13px;
+	font-weight: 100;
 }
 
 /* Fonts */
@@ -69,6 +70,7 @@ h1 {
 	color: #777;
 	border: 2px #eaeaea solid; /*need shadow bottom*/
 	padding: 1em;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .d {
@@ -79,17 +81,61 @@ h1 {
     color: #424242;
     padding: 1em 1em;
     text-align: center;
-		border-radius: 3px;
-		background-color: inherit;
+		border-radius: 5px;
+		background-color: inherit; /*turns dark grey*/
 		width: 45%;
-
 }
 
 .button1 {
 	text-align: left;
+	font-size: 15px;
+	margin-right: 5px;
 }
+
 .button2{
 	background-color: #1CBC2C;
 	color: white;
 	margin: 10px 0px;
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+.button3 {
+	margin-right: 5px;
+	font-weight: bold;
+	background-color: #eaeaea; opacity: 0.4;
+}
+
+.button4 {
+	margin-left: 5px;
+}
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	margin: 2em auto;
+	max-width: 260px;
+  text-align: center;
+}
+
+.need {
+	background-color: #424242;
+  color: white;
+  border-radius: 3px;
+	text-align: center;
+	padding: 1em;
+}
+
+.bar {
+	background-color: #EF5F3C;
+	border-radius: 5px;
+	border: 2px #eaeaea solid;
+	margin-top: 1em;
+	color: #EF5F3C;
+}
+
+.info {
+	color: #777;
+	border: 2px #eaeaea solid; /*need shadow bottom*/
+	padding: 1em;
+	text-align: left;
 }
