@@ -140,3 +140,12 @@ h1 {
 	text-align: left;
 	font-weight: 100;
 }
+
+.blue {
+	color: #20A1D4;
+}
+
+.orange {
+	color: #EF5F3C;
+	font-weight: bold;
+}
